@@ -11,6 +11,18 @@ public class Player_SkillManager : MonoBehaviour
     }
 
 
+    public Skill_Base GetSkillByType(SkillType type)
+    {
+        switch (type)
+        {
+            case SkillType.Dash: return dash;
 
+
+            default:
+                Debug.Log($"Skill type {type} is not implemented yet.");
+                return null;
+        }
+
+    }
 
 }
