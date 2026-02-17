@@ -13,9 +13,13 @@ MonoBehaviour:
   m_Name: Skill data - Echo step
   m_EditorClassIdentifier: 
   cost: 2
-  displayName: Found fragment
-  description: 'Create a time shard on arrival.
+  skillType: 0
+  upgradeData:
+    upgradeType: 1
+    cooldown: 3
+  displayName: Echo step
+  description: 'Create a time echo before you dash.
 
-    (Inherits all upgrades of Time
-    shard Ability)'
-  icon: {fileID: 522679889, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
+    (Inherits all upgrades of
+    Time ech ability)'
+  icon: {fileID: 2145447606, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}

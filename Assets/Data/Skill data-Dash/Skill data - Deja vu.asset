@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b05f30c54261b84c806ef06deeb4a03, type: 3}
   m_Name: Skill data - Deja vu
   m_EditorClassIdentifier: 
-  cost: 2
-  displayName: Found fragment
-  description: 'Create a time shard on arrival.
+  cost: 3
+  skillType: 0
+  upgradeData:
+    upgradeType: 2
+    cooldown: 3
+  displayName: Deja vu
+  description: 'Create a time echo on arrival.
 
     (Inherits all upgrades of Time
-    shard Ability)'
-  icon: {fileID: 522679889, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
+    echoAbility)'
+  icon: {fileID: 1805549052, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
