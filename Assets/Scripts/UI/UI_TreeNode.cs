@@ -15,7 +15,7 @@ public class UI_TreeNode : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     public bool isUnlocked;
     public bool isLocked;
 
-    [Header("Skil details")]
+    [Header("Skill details")]
     public Skill_DataSO skillData;
     [SerializeField] private string skillName;
     [SerializeField] private Image skillIcon;
@@ -32,6 +32,14 @@ public class UI_TreeNode : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         connectHandler = GetComponent<UI_TreeConnectHandler>();
 
         UpdateIconColor(GetColorByHex(lockedColorHex));
+
+    }
+
+    private void Start()
+    {
+        if (skillData.unlockedByDefault)
+            Unlock();
+        
     }
 
     public void Refund()
@@ -84,7 +92,20 @@ public class UI_TreeNode : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     private void LockConflictNodes()
     {
         foreach (var node in conflictNodes)
+        {
             node.isLocked = true;
+            node.LockChildNodes();
+        }
+    }
+
+    public void LockChildNodes()
+    {
+        isLocked = true;
+
+        foreach (var node in connectHandler.GetChildNodes())
+            node.LockChildNodes();
+        
+        
     }
 
     private void UpdateIconColor(Color color)
