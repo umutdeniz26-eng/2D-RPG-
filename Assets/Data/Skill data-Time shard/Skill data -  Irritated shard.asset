@@ -12,12 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b05f30c54261b84c806ef06deeb4a03, type: 3}
   m_Name: Skill data -  Irritated shard
   m_EditorClassIdentifier: 
+  displayName: Irritated shard
+  description: Shard will move towards closest enemy.
+  icon: {fileID: 1184643374, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
   cost: 2
   unlockedByDefault: 0
   skillType: 2
   upgradeData:
     upgradeType: 7
     cooldown: 4
-  displayName: Irritated shard
-  description: Shard will move towards closest enemy.
-  icon: {fileID: 1184643374, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
+    damageScaleData:
+      physical: 1
+      elemental: 1
+      chillDuration: 3
+      chillSlowMultiplier: 0.2
+      burnDuration: 3
+      burnDamageScale: 1
+      shockDuration: 3
+      shockDamageScale: 1
+      shockCharge: 0.4
