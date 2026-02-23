@@ -20,6 +20,11 @@ public enum SkillUpgradeType
     Shard_TeleportHpRewind, //When you swap places with shard,your HP % is same as it was when you created shard
 
 
+    // ------Shard Tree-------
+    SwordThrow, // You can throw sword to damage enemies from range
+    SwordThrow_Spin, // Your sword will spin at one point and damage enemies.Like a chainsaw
+    SwordThrow_Pierce, // Pierce sword will pierce N targets
+    SwordThrow_Bouncec // Bounce sword will bounce between enemies
 
 
 }
