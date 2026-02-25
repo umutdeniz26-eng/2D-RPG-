@@ -22,6 +22,7 @@ public class Player_SkillManager : MonoBehaviour
         {
             case SkillType.Dash: return dash;
             case SkillType.TimeShard: return shard;
+                case SkillType.SwordThrow: return swordThrow;
 
 
             default:

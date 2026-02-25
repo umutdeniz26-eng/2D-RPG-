@@ -10,19 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b05f30c54261b84c806ef06deeb4a03, type: 3}
-  m_Name: Skill data - Quick dash
+  m_Name: Skill data -Catch this!
   m_EditorClassIdentifier: 
-  displayName: Quick dash
-  description: 'Dash to avoid attacks.
-
-    You cannot take damage while dashing'
-  icon: {fileID: 900771226, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
-  cost: 0
+  displayName: Catch this!
+  description: Throw your sword to damage enemies.Sword will apply status effects.You
+    can have only one active sword at a time
+  icon: {fileID: -2048434906, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
+  cost: 1
   unlockedByDefault: 0
-  skillType: 0
+  skillType: 3
   upgradeData:
-    upgradeType: 1
-    cooldown: 3
+    upgradeType: 11
+    cooldown: 4
     damageScaleData:
       physical: 1
       elemental: 1

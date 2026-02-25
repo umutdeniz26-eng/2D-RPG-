@@ -14,7 +14,7 @@ public class Skill_Shard : Skill_Base
     [Header("Moving Shard Upgrade")]
     [SerializeField] private float shardSpeed = 7;
 
-
+    
     [Header("Multicast Shard Upgrade")]
     [SerializeField] private int maxCharges = 3;
     [SerializeField] private int currentCharges;
