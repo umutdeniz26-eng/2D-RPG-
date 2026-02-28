@@ -990,7 +990,7 @@ GameObject:
   - component: {fileID: 186527824}
   - component: {fileID: 186527823}
   m_Layer: 5
-  m_Name: UI_TreeNode - Mirror shards
+  m_Name: UI_TreeNode - The Xenablade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1045,15 +1045,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neededNodes:
-  - {fileID: 2005678883}
+  - {fileID: 1655437746}
   conflictNodes:
   - {fileID: 1341769588}
   isUnlocked: 0
   isLocked: 0
-  skillData: {fileID: 11400000, guid: d63836a31171b484a84029257dadd76f, type: 2}
-  skillName: Mirror shards
+  skillData: {fileID: 11400000, guid: 7c7034f05402d7945adbb3d08bea76c0, type: 2}
+  skillName: The Xenablade
   skillIcon: {fileID: 1163814783}
-  skillCost: 3
+  skillCost: 2
   lockedColorHex: '#9F9797'
 --- !u!1 &188389093
 GameObject:
@@ -3379,13 +3379,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillType: 3
-  upgradeType: 13
+  upgradeType: 0
   cooldown: 0
   swordPrefab: {fileID: 6223128352044085150, guid: f588a3009e2e0c44dabe219c2b9bdaf6, type: 3}
-  throwPower: 5
+  regularThrowPower: 3
   pierceSwordPrefab: {fileID: 3969339682690285963, guid: d1fd218f17246f549803e7a2ea1ae69a, type: 3}
   amountToPierce: 2
-  predictionDot: {fileID: 1371491897}
+  pierceThrowPower: 6
+  spinSwordPrefab: {fileID: 5501979930293088560, guid: 9bf843849fb31ef47a8deb1e11388a64, type: 3}
+  maxDistance: 100
+  attacksPerSecond: 6
+  maxSpinDuration: 3
+  spinThrowPower: 4
+  bounceSwordPrefab: {fileID: 6598023144852686848, guid: 95e6a2cc046421d44b0b074cf009afb9, type: 3}
+  bounceCount: 5
+  bounceSpeed: 12
+  bounceThrowPower: 5
+  predictionDot: {fileID: 3593528453701306179, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
   numberOfDots: 20
   spaceBetweenDots: 0.05
 --- !u!1 &478940939
@@ -5049,7 +5059,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -195789106, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
+  m_Sprite: {fileID: -611442429, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -65170,7 +65180,7 @@ GameObject:
   - component: {fileID: 865895405}
   - component: {fileID: 865895404}
   m_Layer: 5
-  m_Name: UI_TreeNode - Phantom recall
+  m_Name: UI_TreeNode - The Grinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65208,10 +65218,10 @@ MonoBehaviour:
   - {fileID: 1341769588}
   isUnlocked: 0
   isLocked: 0
-  skillData: {fileID: 11400000, guid: 04631974a5216d24493b54a05aed1d54, type: 2}
-  skillName: Phantom recall
+  skillData: {fileID: 11400000, guid: 8a2d469388ca2434990a3c69f4aa74ae, type: 2}
+  skillName: The Grinder
   skillIcon: {fileID: 742716247}
-  skillCost: 2
+  skillCost: 4
   lockedColorHex: '#9F9797'
 --- !u!224 &865895406
 RectTransform:
@@ -66859,11 +66869,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2143046149361102411, guid: bf4305a5f17a41745ac68d0ebde48a14, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2143046149361102411, guid: bf4305a5f17a41745ac68d0ebde48a14, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4284223986879445403, guid: bf4305a5f17a41745ac68d0ebde48a14, type: 3}
       propertyPath: offense.damage.baseValue
@@ -66875,7 +66885,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6409625887082432548, guid: bf4305a5f17a41745ac68d0ebde48a14, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8227408368413302491, guid: bf4305a5f17a41745ac68d0ebde48a14, type: 3}
       propertyPath: m_LocalPosition.x
@@ -67414,7 +67424,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -947979763, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
+  m_Sprite: {fileID: -600305260, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -68110,7 +68120,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1184643374, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
+  m_Sprite: {fileID: -1493271087, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -68669,11 +68679,6 @@ MonoBehaviour:
   skillIcon: {fileID: 1516426475}
   skillCost: 3
   lockedColorHex: '#9F9797'
---- !u!1 &1371491897 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3593528453701306179, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
-  m_PrefabInstance: {fileID: 7502285779612804176}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1384712120
 GameObject:
   m_ObjectHideFlags: 0
@@ -72975,7 +72980,7 @@ GameObject:
   - component: {fileID: 2005678883}
   - component: {fileID: 2005678884}
   m_Layer: 5
-  m_Name: UI_TreeNode - Irritated shard
+  m_Name: UI_TreeNode - The Bulletsword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72999,8 +73004,8 @@ MonoBehaviour:
   - {fileID: 1341769588}
   isUnlocked: 0
   isLocked: 0
-  skillData: {fileID: 11400000, guid: f72e53f904971fc4cbd2697219197223, type: 2}
-  skillName: Irritated shard
+  skillData: {fileID: 11400000, guid: e0d068751d2f58948820ff7dd76b5e69, type: 2}
+  skillName: The Bulletsword
   skillIcon: {fileID: 1258809254}
   skillCost: 2
   lockedColorHex: '#9F9797'
@@ -73665,11 +73670,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2143046149361102411, guid: bf4305a5f17a41745ac68d0ebde48a14, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2143046149361102411, guid: bf4305a5f17a41745ac68d0ebde48a14, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4284223986879445403, guid: bf4305a5f17a41745ac68d0ebde48a14, type: 3}
       propertyPath: offense.damage.baseValue
@@ -73681,7 +73686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6409625887082432548, guid: bf4305a5f17a41745ac68d0ebde48a14, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8227408368413302491, guid: bf4305a5f17a41745ac68d0ebde48a14, type: 3}
       propertyPath: m_LocalPosition.x
@@ -74667,67 +74672,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2145530604}
   m_CullTransparentMesh: 1
---- !u!1001 &7502285779612804176
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3593528453701306179, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
-      propertyPath: m_Name
-      value: SkillObject_TrajectoryDot
-      objectReference: {fileID: 0}
-    - target: {fileID: 3593528453701306179, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6843186529895200206, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.443574
-      objectReference: {fileID: 0}
-    - target: {fileID: 6843186529895200206, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.9999158
-      objectReference: {fileID: 0}
-    - target: {fileID: 6843186529895200206, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6843186529895200206, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6843186529895200206, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6843186529895200206, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6843186529895200206, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6843186529895200206, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6843186529895200206, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6843186529895200206, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dde0cb213ea1af141b12c83f9db6c3e7, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -74741,4 +74685,3 @@ SceneRoots:
   - {fileID: 1988432487}
   - {fileID: 1126568171}
   - {fileID: 2049976291}
-  - {fileID: 7502285779612804176}

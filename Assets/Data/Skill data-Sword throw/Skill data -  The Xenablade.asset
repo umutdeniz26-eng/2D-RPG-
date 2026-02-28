@@ -10,20 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b05f30c54261b84c806ef06deeb4a03, type: 3}
-  m_Name: Skill data -  The Bulletsword
+  m_Name: Skill data -  The Xenablade
   m_EditorClassIdentifier: 
-  displayName: The Bulletsword
-  description: Launch a sword that flies forward,piercing through up to N enemies
-    in its path
-  icon: {fileID: -1493271087, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
+  displayName: The Xenablade
+  description: The sword will bounce between N targets,dealing damage on each bounce.
+  icon: {fileID: -600305260, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
   cost: 2
   unlockedByDefault: 0
   skillType: 3
   upgradeData:
-    upgradeType: 13
+    upgradeType: 14
     cooldown: 4
     damageScaleData:
-      physical: 2
+      physical: 1
       elemental: 1
       chillDuration: 3
       chillSlowMultiplier: 0.2

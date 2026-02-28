@@ -24,7 +24,7 @@ public enum SkillUpgradeType
     SwordThrow, // You can throw sword to damage enemies from range
     SwordThrow_Spin, // Your sword will spin at one point and damage enemies.Like a chainsaw
     SwordThrow_Pierce, // Pierce sword will pierce N targets
-    SwordThrow_Bouncec // Bounce sword will bounce between enemies
+    SwordThrow_Bounce // Bounce sword will bounce between enemies
 
 
 }
