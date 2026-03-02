@@ -59,7 +59,7 @@ public class Skill_Base : MonoBehaviour
 
     public void SetSkillOnCooldown() => lastTimeUsed = Time.time;
 
-    public void ResetCooldownBy(float cooldownReduction) => lastTimeUsed = lastTimeUsed + cooldownReduction;
+    public void ReduceCooldownBy(float cooldownReduction) => lastTimeUsed = lastTimeUsed + cooldownReduction;
 
 
     public void ResetCooldown() => lastTimeUsed = Time.time;
