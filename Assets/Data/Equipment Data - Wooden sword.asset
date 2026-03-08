@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d3c64e02379f314c9d61d506fdd6284, type: 3}
   m_Name: Equipment Data - Wooden sword
   m_EditorClassIdentifier: 
-  itemName: 
-  itemIcon: {fileID: 0}
-  itemType: 0
-  maxStackSize: 2
-  modifiers: []
+  itemName: Wooden sword
+  itemIcon: {fileID: -2048434906, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
+  itemType: 1
+  maxStackSize: 1
+  modifiers:
+  - statType: 0
+    value: 4
+  - statType: 0
+    value: 2

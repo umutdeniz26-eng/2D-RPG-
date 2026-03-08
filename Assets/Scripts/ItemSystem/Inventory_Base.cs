@@ -27,7 +27,7 @@ public class Inventory_Base : MonoBehaviour
     {
         Inventory_Item itemInInventory = FindItem(itemToAdd.itemData);
 
-        if (itemInInventory != null)
+        if (itemInInventory != null && itemInInventory.CanAddStack())
             itemInInventory.AddStack();
 
         else
@@ -47,7 +47,7 @@ public class Inventory_Base : MonoBehaviour
 
     public Inventory_Item FindItem(ItemDataSO itemData)
     {
-        return itemList.Find(item => item.itemData == itemData && item.CanAddStack());
+        return itemList.Find(item => item.itemData == itemData );
     }
     
 }
