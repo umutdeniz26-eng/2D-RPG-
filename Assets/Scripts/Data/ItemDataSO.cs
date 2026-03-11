@@ -8,5 +8,5 @@ public class ItemDataSO : ScriptableObject
     public string itemName;
     public Sprite itemIcon;
     public ItemType itemType;
-    public int maxStackSize = 2;
+    public int maxStackSize = 1;
 }

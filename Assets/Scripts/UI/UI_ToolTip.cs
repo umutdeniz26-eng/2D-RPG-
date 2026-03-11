@@ -4,7 +4,7 @@ using UnityEngine;
 public class UI_ToolTip : MonoBehaviour
 {
     private RectTransform rect;
-    [SerializeField] private Vector2 offset = new Vector2(300, 20);
+    [SerializeField] private Vector2 offset = new Vector2(130, 20);
 
     protected virtual void Awake()
     {

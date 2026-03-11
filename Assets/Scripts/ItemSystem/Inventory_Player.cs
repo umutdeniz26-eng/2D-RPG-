@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
-public class Inventory_Player :Inventory_Base
+public class Inventory_Player : Inventory_Base
 {
     private Entity_Stats playerStats;
     public List<Inventory_EquipmentSlot> equipList;
@@ -13,6 +13,8 @@ public class Inventory_Player :Inventory_Base
 
         playerStats = GetComponent<Entity_Stats>();
     }
+
+
 
 
     public void TryEquipItem(Inventory_Item item)
@@ -29,6 +31,12 @@ public class Inventory_Player :Inventory_Base
             }
         }
 
+
+        var slotToReplace = matchingSlots[0];
+        var itemToUnequip = slotToReplace.equipedItem;
+
+        EquipItem(inventoryItem, slotToReplace);
+        UnequipItem(itemToUnequip);
     }
 
 
@@ -42,6 +50,25 @@ public class Inventory_Player :Inventory_Base
     }
         
 
-        
+    public void UnequipItem(Inventory_Item itemToUnequip)
+    {
+        if (CanAddItem() == false)
+        {
+            Debug.Log("No Space!");
+            return;
+        }
+
+        foreach (var slot in equipList)
+        {
+            if (slot.equipedItem == itemToUnequip)
+            {
+                
+                slot.equipedItem = null;
+                break;
+            }
+        }
+        itemToUnequip.RemoveModifiers(playerStats);
+        AddItem(itemToUnequip);
+    }
 
 }   
