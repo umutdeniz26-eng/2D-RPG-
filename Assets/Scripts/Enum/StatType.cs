@@ -1,6 +1,4 @@
-using UnityEngine;
-
-public enum StatType 
+public enum StatType
 {
     MaxHealth,
     HealthRegen,
@@ -20,5 +18,6 @@ public enum StatType
     Evasion,
     IceResistance,
     FireResistance,
-    LightningResistance
+    LightningResistance,
+    ElementalDamage
 }
