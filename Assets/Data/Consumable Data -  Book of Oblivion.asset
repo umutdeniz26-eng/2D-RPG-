@@ -9,15 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d3c64e02379f314c9d61d506fdd6284, type: 3}
-  m_Name: Equipment Data - Wooden sword
+  m_Script: {fileID: 11500000, guid: 2e83ac40ad1c7684185dc44740ae2117, type: 3}
+  m_Name: Consumable Data -  Book of Oblivion
   m_EditorClassIdentifier: 
-  itemName: Wooden sword
-  itemIcon: {fileID: -2048434906, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
-  itemType: 1
+  itemName: 
+  itemIcon: {fileID: 0}
+  itemType: 0
   maxStackSize: 1
-  modifiers:
-  - statType: 7
-    value: 4
-  - statType: 6
-    value: 0.1
+  itemEffect: {fileID: 0}
