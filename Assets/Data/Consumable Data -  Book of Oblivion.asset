@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e83ac40ad1c7684185dc44740ae2117, type: 3}
   m_Name: Consumable Data -  Book of Oblivion
   m_EditorClassIdentifier: 
-  itemName: 
-  itemIcon: {fileID: 0}
-  itemType: 0
+  itemName: Book of Oblivion
+  itemIcon: {fileID: 2135913722, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
+  itemType: 4
   maxStackSize: 1
-  itemEffect: {fileID: 0}
+  itemEffect: {fileID: 11400000, guid: 14f7ad7bcd54c774595f01f002d94f75, type: 2}

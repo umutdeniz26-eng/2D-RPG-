@@ -9,11 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e1064205666f004ea8830f44105f712, type: 3}
-  m_Name: Material Data - Animal leather
+  m_Script: {fileID: 11500000, guid: 0d3c64e02379f314c9d61d506fdd6284, type: 3}
+  m_Name: Equipment Data - Winters touch
   m_EditorClassIdentifier: 
-  itemName: Animal leather
-  itemIcon: {fileID: -676011521, guid: 7ae0115109b4a6f42a4f7ad59397d09b, type: 3}
+  itemName: 
+  itemIcon: {fileID: 0}
   itemType: 0
-  maxStackSize: 2
+  maxStackSize: 1
   itemEffect: {fileID: 0}
+  modifiers: []

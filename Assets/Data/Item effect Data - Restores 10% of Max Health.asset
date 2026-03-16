@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7ef72d8de15d9e4fbd493a72b08453e, type: 3}
   m_Name: Item effect Data - Restores 10% of Max Health
   m_EditorClassIdentifier: 
-  effectDescription: 
+  effectDescription: Restores 10% of Max Health
   healPercent: 0.1

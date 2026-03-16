@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04819e356ddea9f4dbbb17c56b504ffe, type: 3}
   m_Name: Item effect Data - Refund all skills
   m_EditorClassIdentifier: 
-  effectDescription: 
+  effectDescription: 'Reset all skills.
+
+    Refund all skill points.'
