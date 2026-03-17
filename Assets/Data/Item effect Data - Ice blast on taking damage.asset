@@ -12,5 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b154fccf4f356f145a477cdbcbee5bc5, type: 3}
   m_Name: Item effect Data - Ice blast on taking damage
   m_EditorClassIdentifier: 
-  effectDescription: When you take damage and your health falls below 15%,unleash
+  effectDescription: When you take damage and your health falls below 25%,unleash
     a cold explosion dealing 150 ice damage to nearby enemies.Cooldown 40s.
+  effectData:
+    chillDuration: 3
+    chillSlowMultiplier: 0.6
+    burnDuration: 0
+    totalBurnDamage: 0
+    shockDuration: 0
+    shockDamage: 0
+    shockCharge: 0
+  iceDamage: 0
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 256
+  HealthPercentTrigger: 0.25
+  cooldown: 40
+  iceBlastVfx: {fileID: 6584887216030766245, guid: e3cc420fd90ffc44f97393516631389f, type: 3}
+  onHitVfx: {fileID: 6112724607161003390, guid: a092b215b1103c34982cf4ba009e0fed, type: 3}
