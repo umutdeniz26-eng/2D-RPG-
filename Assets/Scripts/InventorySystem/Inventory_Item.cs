@@ -1,4 +1,4 @@
-using System;
+    using System;
 
 using UnityEngine;
 
@@ -47,6 +47,11 @@ public class Inventory_Item
             statToModify.RemoveModifier(itemId);
         }
     }
+
+    public void AddItemEffect(Player player) => itemEffect?.Subscribe(player);
+
+    public void RemoveItemEffect()=> itemEffect?.Unsubscribe();
+
 
     private EquipmentDataSO EquipmentData()
     {

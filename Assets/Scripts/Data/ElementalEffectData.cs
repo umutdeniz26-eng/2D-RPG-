@@ -1,7 +1,9 @@
 
 
 
+using System;
 
+[Serializable]
 public class ElementalEffectData
 {
 

@@ -88,4 +88,6 @@ public class Inventory_Base : MonoBehaviour
     {
         
     }
+
+    public void TriggerUpdateUI() => OnInventoryChange?.Invoke();
 }

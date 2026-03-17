@@ -6,6 +6,13 @@ using UnityEngine;
 public class Player_Stats : Entity_Stats
 {
    private List<string> activeBuff=new List<string>();
+    private Inventory_Player inventory;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        inventory=GetComponent<Inventory_Player>();
+    }
 
     public bool CanApplyBuffOf(string source)
     {
@@ -33,6 +40,7 @@ public class Player_Stats : Entity_Stats
             GetStatByType(buff.type).RemoveModifier(source);
         }
 
+        inventory.TriggerUpdateUI();
         activeBuff.Remove(source);
     }
 }
